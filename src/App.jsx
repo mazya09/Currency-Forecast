@@ -14,7 +14,7 @@ function App() {
   async function run() {
     console.log("Ждём...");
     const result = await waitTwoSeconds();
-    console.log(result); // "Прошло 2 секунды"
+    console.log(result); 
   }
 
   useEffect(() => {
