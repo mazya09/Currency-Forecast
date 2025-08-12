@@ -1,0 +1,17 @@
+header {
+  border: 1px solid red;
+  max-width: 100%;
+min-height: 15vh; /* вместо фиксированной высоты */
+height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+ padding: 15px;
+
+}
+.Logo img {
+  max-width: 100%;
+  height: auto;
+  width: 150px;
+}
